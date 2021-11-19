@@ -1,0 +1,215 @@
+body {
+    margin: 0rem;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+h1.bg-color {
+    background-color:#2a9d8f;
+    margin: 0rem;
+    padding: 3% 0%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 15%;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bolder;
+}
+
+.container-left {
+    width: 45%;
+    border-right: 1px solid grey;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+button#btn-newQuestion {
+    background-color:#4895ef;
+    color: white;
+    font-size: 1.1rem;
+    padding: 2%;
+    border: none;
+    box-shadow: 0px 0px 2px 2px #a9a9e1;
+    margin-right: 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input#search-question {
+    padding: 2%;
+    font-size: 1rem;
+}
+
+.container-right {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+#question-form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#question-form h1 {
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#question-form p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+#question-form input {
+    width: 30%;
+    padding: 2%;
+    font-size: 1.4rem;
+}
+
+#question-form textarea {
+    height: 30%;
+    padding: 2%;
+    font-size: 1rem;
+    width: 100%;
+}
+
+button#btn-submit {
+    margin-top: 4%;
+    width: 15%;
+    background-color: #4895ef;
+    color: white;
+    font-size: 1.1rem;
+    padding: 2%;
+    border: none;
+    border-radius: 4px;
+    min-width: 75px;
+    cursor: pointer;
+}
+
+.upper-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 2% 4%;
+    border-bottom: 1px solid grey;
+    height: 25%;
+    min-height: 150px;
+}
+
+.upper-half > button {
+    width: 25%;
+    min-width: 80px;
+}
+
+.lower-half {
+    background-color: #F5F5F5;
+    height: 75%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.lower-half > div {
+    background-color: white;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.lower-half p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.container-question {
+    padding-bottom: 2%;
+    border-bottom: 2px solid gray;
+    height: 40%;
+}
+
+.container-question > button {
+    color: white;
+    border: whitesmoke;
+    background-color: blue;
+    padding: 6px;
+}
+
+.container-question > span {
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+
+.container-question > span::before {
+   content: " ";
+   display: inline-block;
+   
+   height: 12px;
+   width: 12px;
+}
+
+.container-question > p {
+    font-size: 1rem;
+    font-style: oblique;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-response {
+    padding-bottom: 2%;
+    border-bottom: 2px solid gray;
+}
+
+.container-response div > span {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: white;
+    padding: 4px;
+    display: inline-block;
+}
+
+.container-addresponse{
+   padding: 1%;
+}
+
+.container-addresponse > input {
+    width: 30%;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.container-addresponse > textarea {
+    width: 80%;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.container-addresponse > button {
+    min-width: 20%;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 6px;
+}
+
+.container-quesres {
+    display: flex;
+    flex-direction: column;
+    min-height: 75%;
+}
